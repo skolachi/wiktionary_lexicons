@@ -9,7 +9,7 @@ These pronunciation lexicons can be useful in building ASR / TTS systems.
 I downloaded extracted json file from https://kaikki.org/dictionary/All%20languages%20combined/kaikki.org-dictionary-all.json.bz2.
 
 The main extraction script is extract\_dictionary.py.\
-Usage:\ 
+Usage: 
 python3 extract\_dictionary.py --lang de,en,es,fr,it --jsonfile jsonfile --outfile langcode\_dictionary.tsv
 
 Output tsv file contains fields- word, transcription, phone set, locale (accent), word meaning
@@ -45,4 +45,4 @@ German	54850 de_dictionary.tsv\
 English	162495 en_dictionary.tsv\
 Spanish	156076 es_dictionary.tsv\
 French	73579 fr_dictionary.tsv\
-Italian	26854 it_dictionary.tsv\
+Italian	26854 it_dictionary.tsv

@@ -31,7 +31,7 @@ def extract_dictionary(jsonfile,outfile,lang):
 
 
 def main():
-	parser = argparse.ArgumentParser(description='Prepare corpus for Language Model training')
+	parser = argparse.ArgumentParser(description='Extraction pronunciation dictionary from Wiktionary datafile')
 	parser.add_argument("--lang",help='Language',choices=['de','en','es','fr','it'],required=True)
 	parser.add_argument("--jsonfile",help='Path to wiktextract json output',default='/data/nfs/datasets/speech/es/englishnativisation/englishlexicon/kaikki.org-dictionary-all.json')
 	parser.add_argument("--outfile",help='Extracted dictionary written to this file',default='dictionary.tsv')
